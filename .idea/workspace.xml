@@ -1,8 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2084ee1a-9ec2-4a68-a5ab-5ebf220ee4e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/icon-animation.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/icon-business.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/icon-crypto.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/icon-design.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/icon-photography.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/image-hero-desktop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/image-hero-desktop.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/image-hero-desktop@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/image-hero-desktop@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/image-hero-mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/image-hero-mobile.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/image-hero-mobile@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/image-hero-mobile@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/image-hero-tablet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/image-hero-tablet.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/image-hero-tablet@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/image-hero-tablet@2x.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/logo-dark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/assets/logo-light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2cb53jZXP26DmWD4pLxPcGC6lvN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.watch.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "P:\\SkilledElearningPage\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="P:\SkilledElearningPage\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.watch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2084ee1a-9ec2-4a68-a5ab-5ebf220ee4e0" name="Changes" comment="" />
+      <created>1708367242826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708367242826</updated>
+      <workItem from="1708367246181" duration="3541000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>
