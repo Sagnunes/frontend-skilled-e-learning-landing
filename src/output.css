@@ -607,6 +607,10 @@ video {
   height: 256px;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .min-h-\[120px\]{
   min-height: 120px;
 }
@@ -853,6 +857,10 @@ video {
     height: 256px;
   }
 
+  .md\:h-screen{
+    height: 100vh;
+  }
+
   .md\:w-1\/2{
     width: 50%;
   }
@@ -901,6 +909,10 @@ video {
 
   .lg\:hidden{
     display: none;
+  }
+
+  .lg\:h-screen{
+    height: 100vh;
   }
 
   .lg\:w-\[1110px\]{
