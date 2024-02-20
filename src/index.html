@@ -13,57 +13,185 @@
 
     <title>Frontend Mentor | Skilled e-learning landing page</title>
   </head>
-  <body class="">
+  <body>
     <main class="p-6">
       <header class="flex flex-row items-center justify-between">
-        <img
-          src="../assets/logo-dark.svg"
-          alt="logo dark"
-          class="h-[35px] w-[89px]"
-        />
+        <img src="../assets/logo-dark.svg" alt="logo dark" />
         <button
-          class="bg-darkBlue font-jakarta rounded-[28px] px-6 py-3 text-base font-bold text-white"
+          class="rounded-[28px] bg-darkBlue px-6 py-3 font-jakarta text-base font-bold text-white"
         >
           Get Started
         </button>
       </header>
 
-      <h1
-        class="font-jakarta text-darkBlue mt-[38px] text-[40px] font-extrabold"
-      >
-        Maximize skill, minimize budget
-      </h1>
+      <section class="md:relative md:flex md:flex-row">
+        <div class="md:mt-28 md:flex md:w-1/2 md:flex-col">
+          <h1
+            class="mt-[38px] font-jakarta text-[40px] font-extrabold text-darkBlue"
+          >
+            Maximize skill, minimize budget
+          </h1>
 
-      <p class="text-blueishPurple font-jakarta pt-6 text-base font-medium">
-        Our modern courses across a range of in-demand skills will give you the
-        knowledge you need to live the life you want.
-      </p>
-      <div class="mb-[46px] mt-6">
+          <p class="pt-6 font-jakarta text-base font-medium text-blueishPurple">
+            Our modern courses across a range of in-demand skills will give you
+            the knowledge you need to live the life you want.
+          </p>
+          <div class="mb-[46px] mt-6">
+            <button
+              class="rounded-[28px] bg-magentaToOrange px-6 py-3 font-jakarta text-base font-bold text-white"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <img
+          src="../assets/image-hero-tablet@2x.png"
+          alt=""
+          class="sm:hidden md:absolute md:left-[300px] md:top-[-120px] md:block"
+        />
+      </section>
+
+      <img
+        src="../assets/image-hero-mobile.png"
+        alt="hero mobile image"
+        class="sm:block md:hidden lg:hidden xl:hidden"
+      />
+
+      <div
+        class="flex h-[120px] items-center justify-center rounded-xl bg-magentaToOrange md:mt-28"
+      >
+        <p class="p-6 font-jakarta text-2xl font-extrabold text-white">
+          Check out our most popular courses!
+        </p>
+      </div>
+
+      <section class="mt-10 space-y-8">
+        <div
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl"
+        >
+          <div class="relative ml-5">
+            <img
+              src="../assets/icon-animation.svg"
+              alt="icon animation"
+              class="absolute top-[-50px]"
+            />
+            <h2 class="mb-4 mt-6 font-jakarta text-xl font-extrabold">
+              Animation
+            </h2>
+            <p
+              class="w-[286px] font-jakarta text-base font-medium text-blueishPurple"
+            >
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </p>
+            <h3 class="mt-6 font-jakarta text-lg font-bold text-brightPink">
+              Get Started
+            </h3>
+          </div>
+        </div>
+        <div
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl"
+        >
+          <div class="relative ml-5">
+            <img
+              src="../assets/icon-design.svg"
+              alt="icon design"
+              class="absolute top-[-50px]"
+            />
+            <h2 class="mb-4 mt-6 font-jakarta text-xl font-extrabold">
+              Design
+            </h2>
+            <p
+              class="w-[286px] font-jakarta text-base font-medium text-blueishPurple"
+            >
+              Create beautiful, usable interfaces to help shape the future of
+              how the web looks.
+            </p>
+            <h3 class="mt-6 font-jakarta text-lg font-bold text-brightPink">
+              Get Started
+            </h3>
+          </div>
+        </div>
+        <div
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl"
+        >
+          <div class="relative ml-5">
+            <img
+              src="../assets/icon-photography.svg"
+              alt="icon photography"
+              class="absolute top-[-50px]"
+            />
+            <h2 class="mb-4 mt-6 font-jakarta text-xl font-extrabold">
+              Photography
+            </h2>
+            <p
+              class="w-[286px] font-jakarta text-base font-medium text-blueishPurple"
+            >
+              Explore critical fundamentals like lighting, composition, and
+              focus to capture exceptional photos.
+            </p>
+            <h3 class="mt-6 font-jakarta text-lg font-bold text-brightPink">
+              Get Started
+            </h3>
+          </div>
+        </div>
+        <div
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl"
+        >
+          <div class="relative ml-5">
+            <img
+              src="../assets/icon-crypto.svg"
+              alt="icon crypto"
+              class="absolute top-[-50px]"
+            />
+            <h2 class="mb-4 mt-6 font-jakarta text-xl font-extrabold">
+              Crypto
+            </h2>
+            <p
+              class="w-[286px] font-jakarta text-base font-medium text-blueishPurple"
+            >
+              All you need to know to get started investing in crypto. Go from
+              beginner to advanced with this 54 hour course.
+            </p>
+            <h3 class="mt-6 font-jakarta text-lg font-bold text-brightPink">
+              Get Started
+            </h3>
+          </div>
+        </div>
+        <div
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl"
+        >
+          <div class="relative ml-5">
+            <img
+              src="../assets/icon-business.svg"
+              alt="icon business"
+              class="absolute top-[-50px]"
+            />
+            <h2 class="mb-4 mt-6 font-jakarta text-xl font-extrabold">
+              Business
+            </h2>
+            <p
+              class="w-[286px] font-jakarta text-base font-medium text-blueishPurple"
+            >
+              A step-by-step playbook to help you start, scale, and sustain your
+              business without outside investment.
+            </p>
+            <h3 class="mt-6 font-jakarta text-lg font-bold text-brightPink">
+              Get Started
+            </h3>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="mt-20 flex h-[120px] w-full bg-darkBlue">
+      <div class="flex w-full flex-row items-center justify-between px-4">
+        <img src="../assets/logo-light.svg" alt="logo light" />
         <button
-          class="bg-magentaToOrange font-jakarta rounded-[28px] px-6 py-3 text-base font-bold text-white"
+          class="rounded-[28px] bg-blueToMagenta px-6 py-3 font-jakarta text-base font-bold text-white"
         >
           Get Started
         </button>
       </div>
-
-      <img src="../assets/image-hero-mobile.png" alt="hero mobile image" />
-
-      <div
-        class="bg-magentaToOrange flex h-[120px] w-[343px] items-center justify-center rounded-xl"
-      >
-        <p class="font-jakarta p-6 text-2xl font-extrabold text-white">
-          Check out our most popular courses!
-        </p>
-      </div>
-    </main>
-    Animation Learn the latest animation techniques to create stunning motion
-    design and captivate your audience. Get Started Design Create beautiful,
-    usable interfaces to help shape the future of how the web looks. Get Started
-    Photography Explore critical fundamentals like lighting, composition, and
-    focus to capture exceptional photos. Get Started Crypto All you need to know
-    to get started investing in crypto. Go from beginner to advanced with this
-    54 hour course. Get Started Business A step-by-step playbook to help you
-    start, scale, and sustain your business without outside investment. Get
-    Started Get Started
+    </div>
   </body>
 </html>
