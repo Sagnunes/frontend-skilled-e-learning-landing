@@ -607,10 +607,6 @@ video {
   height: 256px;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .min-h-\[120px\]{
   min-height: 120px;
 }
@@ -767,7 +763,7 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1050px) {
   .bg {
     background-image: url(../assets/image-hero-desktop@2x.png);
     background-repeat: no-repeat;
@@ -776,18 +772,18 @@ video {
   }
 }
 
-.hover\:bg-grayishBlue:hover{
-  --tw-bg-opacity: 1;
-  background-color: hsl(232 10% 56% / var(--tw-bg-opacity));
+@media (max-width: 768px) {
+  .bg {
+    background-image: url(../assets/image-hero-tablet@2x.png);
+    background-repeat: no-repeat;
+    background-size: 640px 640px;
+    background-position: left 350px top -40px;
+  }
 }
 
 .hover\:bg-blueishPurple:hover{
   --tw-bg-opacity: 1;
   background-color: hsl(234 25% 52% / var(--tw-bg-opacity));
-}
-
-.hover\:opacity-40:hover{
-  opacity: 0.4;
 }
 
 .hover\:opacity-60:hover{
@@ -798,25 +794,9 @@ video {
   .sm\:block{
     display: block;
   }
-
-  .sm\:hidden{
-    display: none;
-  }
 }
 
 @media (min-width: 768px){
-  .md\:absolute{
-    position: absolute;
-  }
-
-  .md\:left-\[300px\]{
-    left: 300px;
-  }
-
-  .md\:top-\[-120px\]{
-    top: -120px;
-  }
-
   .md\:ml-5{
     margin-left: 1.25rem;
   }
@@ -837,10 +817,6 @@ video {
     margin-top: 2rem;
   }
 
-  .md\:block{
-    display: block;
-  }
-
   .md\:flex{
     display: flex;
   }
@@ -855,10 +831,6 @@ video {
 
   .md\:h-\[256px\]{
     height: 256px;
-  }
-
-  .md\:h-screen{
-    height: 100vh;
   }
 
   .md\:w-1\/2{

@@ -5,11 +5,21 @@
 @tailwind utilities;
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1050px) {
     .bg {
         background-image: url(../assets/image-hero-desktop@2x.png);
         background-repeat: no-repeat;
         background-size: 990px 930px;
         background-position: right -250px top -180px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .bg {
+        background-image: url(../assets/image-hero-tablet@2x.png);
+        background-repeat: no-repeat;
+        background-size: 640px 640px;
+        background-position: left 350px top -40px;
     }
 }
