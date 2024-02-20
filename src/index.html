@@ -47,7 +47,7 @@
         <img
           src="../assets/image-hero-tablet@2x.png"
           alt=""
-          class="sm:hidden md:absolute md:left-[300px] md:top-[-120px] md:block"
+          class="sm:hidden md:absolute md:left-[300px] md:top-[-120px] md:block lg:hidden xl:hidden"
         />
       </section>
 
@@ -57,17 +57,19 @@
         class="sm:block md:hidden lg:hidden xl:hidden"
       />
 
-      <div
-        class="flex h-[120px] items-center justify-center rounded-xl bg-magentaToOrange md:mt-28"
-      >
-        <p class="p-6 font-jakarta text-2xl font-extrabold text-white">
-          Check out our most popular courses!
-        </p>
-      </div>
-
-      <section class="mt-10 space-y-8">
+      <section class="space-y-8 md:mt-28 md:grid md:grid-cols-2">
         <div
-          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl"
+          class="mb-10 flex h-[120px] items-center justify-center rounded-xl bg-magentaToOrange md:mt-8 md:h-[256px] md:items-start"
+        >
+          <p
+            class="p-6 font-jakarta text-2xl font-extrabold text-white md:mt-10"
+          >
+            Check out our most popular courses!
+          </p>
+        </div>
+
+        <div
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl md:ml-3"
         >
           <div class="relative ml-5">
             <img
@@ -113,7 +115,7 @@
           </div>
         </div>
         <div
-          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl"
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl md:ml-3"
         >
           <div class="relative ml-5">
             <img
@@ -159,7 +161,7 @@
           </div>
         </div>
         <div
-          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl"
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl md:ml-3"
         >
           <div class="relative ml-5">
             <img
