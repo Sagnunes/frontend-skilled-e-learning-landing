@@ -4,27 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.home {
-    background-image: url(../assets/image-hero-desktop@2x.png);
-    background-repeat: no-repeat;
-    background-size: 990px 930px;
-    background-position: right -330px top -150px;
-}
 
-@media (max-width: 1024px) {
-    .home {
-        background-image: url(../assets/image-hero-tablet@2x.png);
+@media (min-width: 1440px) {
+    .bg {
+        background-image: url(../assets/image-hero-desktop@2x.png);
         background-repeat: no-repeat;
-        background-size: 641px 640px;
-        background-position: right -300px top -93px;
-    }
-}
-
-@media (max-width: 680px) {
-    .home {
-        background-image: url('.');
-        background-repeat: no-repeat;
-        background-size: 375px 375px;
-        background-position: right 50% top 433px;
+        background-size: 990px 930px;
+        background-position: right -250px top -180px;
     }
 }

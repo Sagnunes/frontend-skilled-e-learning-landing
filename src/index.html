@@ -13,32 +13,36 @@
 
     <title>Frontend Mentor | Skilled e-learning landing page</title>
   </head>
-  <body>
-    <main class="p-6">
+  <body class="bg">
+    <main class="p-6 lg:ml-[160px]">
       <header class="flex flex-row items-center justify-between">
         <img src="../assets/logo-dark.svg" alt="logo dark" />
         <button
-          class="rounded-[28px] bg-darkBlue px-6 py-3 font-jakarta text-base font-bold text-white"
+          class="rounded-[28px] bg-darkBlue px-6 py-3 font-jakarta text-base font-bold text-white hover:bg-blueishPurple md:mr-9 lg:mr-[230px]"
         >
           Get Started
         </button>
       </header>
 
-      <section class="md:relative md:flex md:flex-row">
-        <div class="md:mt-28 md:flex md:w-1/2 md:flex-col">
+      <section class="md:flex md:flex-row md:lg:relative">
+        <div
+          class="md:mt-28 md:flex md:w-1/2 md:flex-col lg:mt-40 lg:w-[457px]"
+        >
           <h1
             class="mt-[38px] font-jakarta text-[40px] font-extrabold text-darkBlue"
           >
             Maximize skill, minimize budget
           </h1>
 
-          <p class="pt-6 font-jakarta text-base font-medium text-blueishPurple">
+          <p
+            class="pt-6 font-jakarta text-base font-medium text-blueishPurple lg:w-[320px]"
+          >
             Our modern courses across a range of in-demand skills will give you
             the knowledge you need to live the life you want.
           </p>
           <div class="mb-[46px] mt-6">
             <button
-              class="rounded-[28px] bg-magentaToOrange px-6 py-3 font-jakarta text-base font-bold text-white"
+              class="rounded-[28px] bg-magentaToOrange px-6 py-3 font-jakarta text-base font-bold text-white hover:opacity-60"
             >
               Get Started
             </button>
@@ -57,9 +61,11 @@
         class="sm:block md:hidden lg:hidden xl:hidden"
       />
 
-      <section class="space-y-8 md:mt-28 md:grid md:grid-cols-2">
+      <section
+        class="space-y-8 md:mt-28 md:grid md:grid-cols-2 md:space-x-3 lg:w-[1110px] lg:grid-cols-3"
+      >
         <div
-          class="mb-10 flex h-[120px] items-center justify-center rounded-xl bg-magentaToOrange md:mt-8 md:h-[256px] md:items-start"
+          class="mb-10 flex h-[120px] items-center justify-center rounded-xl bg-magentaToOrange md:mt-8 md:h-[256px] md:items-start lg:w-[350px]"
         >
           <p
             class="p-6 font-jakarta text-2xl font-extrabold text-white md:mt-10"
@@ -69,7 +75,7 @@
         </div>
 
         <div
-          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl md:ml-3"
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl lg:w-[350px]"
         >
           <div class="relative ml-5">
             <img
@@ -92,7 +98,7 @@
           </div>
         </div>
         <div
-          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl"
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl lg:w-[350px]"
         >
           <div class="relative ml-5">
             <img
@@ -115,7 +121,7 @@
           </div>
         </div>
         <div
-          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl md:ml-3"
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl lg:w-[350px]"
         >
           <div class="relative ml-5">
             <img
@@ -138,7 +144,7 @@
           </div>
         </div>
         <div
-          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl"
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl lg:w-[350px]"
         >
           <div class="relative ml-5">
             <img
@@ -161,7 +167,7 @@
           </div>
         </div>
         <div
-          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl md:ml-3"
+          class="flex h-[256px] flex-col justify-center rounded-2xl shadow-2xl lg:w-[350px]"
         >
           <div class="relative ml-5">
             <img
@@ -185,14 +191,20 @@
         </div>
       </section>
     </main>
-    <div class="mt-20 flex h-[120px] w-full bg-darkBlue">
-      <div class="flex w-full flex-row items-center justify-between px-4">
-        <img src="../assets/logo-light.svg" alt="logo light" />
-        <button
-          class="rounded-[28px] bg-blueToMagenta px-6 py-3 font-jakarta text-base font-bold text-white"
-        >
-          Get Started
-        </button>
+    <div class="mt-20 flex min-h-[120px] w-full bg-darkBlue">
+      <div class="mx-auto flex w-[1110px] justify-between">
+        <div class="flex w-full flex-row items-center justify-between px-4">
+          <img
+            src="../assets/logo-light.svg"
+            alt="logo light"
+            class="md:ml-5"
+          />
+          <button
+            class="mr-5 rounded-[28px] bg-blueToMagenta px-6 py-3 font-jakarta text-base font-bold text-white hover:opacity-60"
+          >
+            Get Started
+          </button>
+        </div>
       </div>
     </div>
   </body>
